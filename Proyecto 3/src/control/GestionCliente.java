@@ -13,11 +13,11 @@ public class GestionCliente {
 
 		HashMap<Integer, Cliente> listaClientes = new HashMap<Integer, Cliente>();
 
-                Cliente cliente1 = new Cliente(10001, "Armando Bronca", "3165317");
-                Cliente cliente2 = new Cliente(20002, "Elver Galarga", "3165318");
-                Cliente cliente3 = new Cliente(30003, "Jacko Miste", "3165319");
-                Cliente cliente4 = new Cliente(40004, "Aide Mora", "3165301");
-                Cliente cliente5 = new Cliente(50005, "Elsa Badillo", "3165302");
+                Cliente cliente1 = new Cliente(10001, "Juan Hoyos", "3165317");
+                Cliente cliente2 = new Cliente(20002, "Carlos Benet", "3165318");
+                Cliente cliente3 = new Cliente(30003, "Pablo Correa", "3165319");
+                Cliente cliente4 = new Cliente(40004, "Nelson Mosquera", "3165301");
+                Cliente cliente5 = new Cliente(50005, "Daniel Ramirez", "3165302");
 		
 		listaClientes.put((int) cliente1.getNumeroIdentificacion(), cliente1);
 		listaClientes.put((int) cliente2.getNumeroIdentificacion(), cliente2);

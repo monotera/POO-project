@@ -40,10 +40,19 @@ public class GestionTours {
                 
                 Tour tour1 = new Tour(1000001, "Paraiso Travel", "Medellin", "5:00", 100.0, fechaSalida1, fechaLlegada1);
                 Tour tour2 = new Tour(1000002, "Adventure Time", "Bogota", "22:00", 300.0, fechaSalida2, fechaLlegada2);
-                Ecologico tourEco1 = new Ecologico(true ,20.0 ,true ,2001, "Trip verde", "Ibague", "5:00", 400.0, fechaSalida3, fechaLlegada3);
-                Ecologico tourEco2 = new Ecologico(true, 20.0, false,2002, "Fumaratto", "Honda", "0:00", 100.0, fechaSalida4, fechaLlegada4);
-                Empresarial tourEmp1 = new Empresarial("Tiobe", true, TipoEmpresa.TECNOLOGIA, 3001, "Wall Street Paisa", "Cartagena", "23:00", 500.0, fechaSalida5, fechaLlegada5);
-                Empresarial tourEmp2 = new Empresarial("Aviatur", true, TipoEmpresa.TURISMO, 3002, "Cancun Full", "Bogota", "23:00", 1000.0, fechaSalida6, fechaLlegada6);
+                Tour tour3 = new Tour(1000003, "Paisaje Colombiano", "Villavicencio", "20:00", 100.0, fechaSalida3, fechaLlegada3);
+                Tour tour4 = new Tour(1000004, "Paisaje Cafetero", "Manizales", "19:00", 500.0, fechaSalida4, fechaLlegada4);
+                Tour tour5 = new Tour(1000005, "Conoce Cartagena", "Cartagena", "20:00", 400.0, fechaSalida5, fechaLlegada5);
+                Ecologico tourEco1 = new Ecologico(true ,20.0 ,true ,2000002, "Conoce Colombia", "Ibague", "5:00", 400.0, fechaSalida3, fechaLlegada3);
+                Ecologico tourEco2 = new Ecologico(true, 20.0, false,2000003, "Viaje por Honda", "Honda", "0:00", 100.0, fechaSalida4, fechaLlegada4);
+                Ecologico tourEco3 = new Ecologico(true, 20.0, false,2000004, "Paisaje cafetero", "Pereira", "12:00", 400.0, fechaSalida1, fechaLlegada1);
+                Ecologico tourEco4 = new Ecologico(true, 20.0, false,2000005, "Bienvenido a los paramos", "Manizales", "10:00", 400.0, fechaSalida2, fechaLlegada2);
+                Ecologico tourEco5 = new Ecologico(true, 20.0, false,2000006, "Viaje a las amazonas", "Leticia", "0:00", 300.0, fechaSalida1, fechaLlegada1);
+                Empresarial tourEmp1 = new Empresarial("Tiobe", true, TipoEmpresa.TECNOLOGIA, 3000001, "Wall Street Paisa", "Cartagena", "23:00", 500.0, fechaSalida5, fechaLlegada5);
+                Empresarial tourEmp2 = new Empresarial("Aviatur", true, TipoEmpresa.TURISMO, 3000002, "Cancun Full", "Bogota", "23:00", 1000.0, fechaSalida6, fechaLlegada6);
+                Empresarial tourEmp3 = new Empresarial("Agentur", true, TipoEmpresa.TECNOLOGIA, 3000003, "Ferias Taurinas", "Bogota", "21:00", 1300.0, fechaSalida2, fechaLlegada2);
+                Empresarial tourEmp4 = new Empresarial("Exito", true, TipoEmpresa.MEDIO_COMUNICACION, 3000004, "Cali es Cali", "Cali", "20:00", 800.0, fechaSalida3, fechaLlegada3);
+                Empresarial tourEmp5 = new Empresarial("Aviatur", true, TipoEmpresa.TURISMO, 3000005, "Bienvenidos a medellin", "Medellin", "22:00", 1200.0, fechaSalida5, fechaLlegada5);
                 /*
                 Tour tourSanAndres = new Tour(1000001,"San Andres","Bogota","21:00",4000000, fechaSalida1, fechaLlegada1);
                 Tour tourVilla = new Tour(1000002,"Villa de Leyva","Bogota","17:00",800000, fechaSalida2, fechaLlegada2);
@@ -59,10 +68,19 @@ public class GestionTours {
                 */
                 listaTours.put((int) tour1.getCodigoIdentificacion(), tour1);
                 listaTours.put((int) tour2.getCodigoIdentificacion(), tour2);
+                listaTours.put((int) tour3.getCodigoIdentificacion(), tour3);
+                listaTours.put((int) tour4.getCodigoIdentificacion(), tour4);
+                listaTours.put((int) tour5.getCodigoIdentificacion(), tour5);
                 listaTours.put((int) tourEco1.getCodigoIdentificacion(), tourEco1);
                 listaTours.put((int) tourEco2.getCodigoIdentificacion(), tourEco2);
+                listaTours.put((int) tourEco3.getCodigoIdentificacion(), tourEco3);
+                listaTours.put((int) tourEco4.getCodigoIdentificacion(), tourEco4);
+                listaTours.put((int) tourEco5.getCodigoIdentificacion(), tourEco5);
                 listaTours.put((int) tourEmp1.getCodigoIdentificacion(), tourEmp1);
                 listaTours.put((int) tourEmp2.getCodigoIdentificacion(), tourEmp2);
+                listaTours.put((int) tourEmp3.getCodigoIdentificacion(), tourEmp3);
+                listaTours.put((int) tourEmp4.getCodigoIdentificacion(), tourEmp4);
+                listaTours.put((int) tourEmp5.getCodigoIdentificacion(), tourEmp5);
                 
                 return listaTours;
                 

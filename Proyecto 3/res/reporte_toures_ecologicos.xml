@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tourEcologicoXML>
+    <listaTours>
+        <entry>
+            <key>1234567</key>
+            <value>
+                <codigoIdentificacion>1234567</codigoIdentificacion>
+                <fechaRegreso>2019-12-05T00:00:00-05:00</fechaRegreso>
+                <fechaSalida>2019-11-29T00:00:00-05:00</fechaSalida>
+                <horaPartida>12</horaPartida>
+                <lugarPartita>bog</lugarPartita>
+                <nombreComercial>nelson</nombreComercial>
+                <precio>10.0</precio>
+            </value>
+        </entry>
+        <entry>
+            <key>2000006</key>
+            <value>
+                <codigoIdentificacion>2000006</codigoIdentificacion>
+                <fechaRegreso>2019-01-05T00:00:00-05:00</fechaRegreso>
+                <fechaSalida>2019-01-01T00:00:00-05:00</fechaSalida>
+                <horaPartida>0:00</horaPartida>
+                <lugarPartita>Leticia</lugarPartita>
+                <nombreComercial>Viaje a las amazonas</nombreComercial>
+                <precio>300.0</precio>
+            </value>
+        </entry>
+        <entry>
+            <key>2000005</key>
+            <value>
+                <codigoIdentificacion>2000005</codigoIdentificacion>
+                <fechaRegreso>2019-01-15T00:00:00-05:00</fechaRegreso>
+                <fechaSalida>2019-01-06T00:00:00-05:00</fechaSalida>
+                <horaPartida>10:00</horaPartida>
+                <lugarPartita>Manizales</lugarPartita>
+                <nombreComercial>Bienvenido a los paramos</nombreComercial>
+                <precio>400.0</precio>
+            </value>
+        </entry>
+        <entry>
+            <key>2000002</key>
+            <value>
+                <codigoIdentificacion>2000002</codigoIdentificacion>
+                <fechaRegreso>2019-02-05T00:00:00-05:00</fechaRegreso>
+                <fechaSalida>2019-02-01T00:00:00-05:00</fechaSalida>
+                <horaPartida>5:00</horaPartida>
+                <lugarPartita>Ibague</lugarPartita>
+                <nombreComercial>Conoce Colombia</nombreComercial>
+                <precio>400.0</precio>
+            </value>
+        </entry>
+        <entry>
+            <key>2000003</key>
+            <value>
+                <codigoIdentificacion>2000003</codigoIdentificacion>
+                <fechaRegreso>2019-03-05T00:00:00-05:00</fechaRegreso>
+                <fechaSalida>2019-03-01T00:00:00-05:00</fechaSalida>
+                <horaPartida>0:00</horaPartida>
+                <lugarPartita>Honda</lugarPartita>
+                <nombreComercial>Viaje por Honda</nombreComercial>
+                <precio>100.0</precio>
+            </value>
+        </entry>
+    </listaTours>
+</tourEcologicoXML>

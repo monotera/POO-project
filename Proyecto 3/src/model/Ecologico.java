@@ -94,6 +94,8 @@ public class Ecologico extends Tour{
     @Override
     public double calcularPrecio()
     {
-        return (super.calcularPrecio()+impuestoLocal);
+        double precioFinal;
+        precioFinal = super.calcularPrecio() + (super.calcularPrecio()*(impuestoLocal/100));
+        return precioFinal;
     }
 }

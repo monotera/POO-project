@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reservasTourEmpresarialXML>
+    <Listado_de_reservas_de_tours_empresariales>
+        <cantidadPersonas>2</cantidadPersonas>
+        <clienteReserva>
+            <nombreCompleto>Carlos Benet</nombreCompleto>
+            <numeroIdentificacion>20002</numeroIdentificacion>
+            <telefonoContacto>3165318</telefonoContacto>
+        </clienteReserva>
+        <fecha/>
+        <numeroReserva>108</numeroReserva>
+        <pagado>false</pagado>
+        <serviciosAdicionales>
+            <codigoServicio>1234567</codigoServicio>
+            <nombreServicio>asd</nombreServicio>
+            <precio>12.0</precio>
+        </serviciosAdicionales>
+        <serviciosAdicionales>
+            <codigoServicio>1234567</codigoServicio>
+            <nombreServicio>asd</nombreServicio>
+            <precio>12.0</precio>
+        </serviciosAdicionales>
+        <tourReservado>
+            <codigoIdentificacion>1234568</codigoIdentificacion>
+            <fechaRegreso>2019-12-05T00:00:00-05:00</fechaRegreso>
+            <fechaSalida>2019-11-29T00:00:00-05:00</fechaSalida>
+            <horaPartida>12</horaPartida>
+            <lugarPartita>bog</lugarPartita>
+            <nombreComercial>nelson</nombreComercial>
+            <precio>10.0</precio>
+        </tourReservado>
+    </Listado_de_reservas_de_tours_empresariales>
+    <Listado_de_reservas_de_tours_empresariales>
+        <cantidadPersonas>2</cantidadPersonas>
+        <clienteReserva>
+            <nombreCompleto>Carlos Benet</nombreCompleto>
+            <numeroIdentificacion>20002</numeroIdentificacion>
+            <telefonoContacto>3165318</telefonoContacto>
+        </clienteReserva>
+        <fecha/>
+        <numeroReserva>109</numeroReserva>
+        <pagado>false</pagado>
+        <tourReservado>
+            <codigoIdentificacion>1234568</codigoIdentificacion>
+            <fechaRegreso>2019-12-05T00:00:00-05:00</fechaRegreso>
+            <fechaSalida>2019-11-29T00:00:00-05:00</fechaSalida>
+            <horaPartida>12</horaPartida>
+            <lugarPartita>bog</lugarPartita>
+            <nombreComercial>nelson</nombreComercial>
+            <precio>10.0</precio>
+        </tourReservado>
+    </Listado_de_reservas_de_tours_empresariales>
+</reservasTourEmpresarialXML>

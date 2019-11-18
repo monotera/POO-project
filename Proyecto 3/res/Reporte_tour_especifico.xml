@@ -3,28 +3,13 @@
     <Listado_de_reservas_de_un_tour_y_fecha_especifica>
         <cantidadPersonas>2</cantidadPersonas>
         <clienteReserva>
-            <nombreCompleto>Armando Bronca</nombreCompleto>
+            <nombreCompleto>Juan Hoyos</nombreCompleto>
             <numeroIdentificacion>10001</numeroIdentificacion>
             <telefonoContacto>3165317</telefonoContacto>
         </clienteReserva>
         <fecha/>
-        <numeroReserva>100</numeroReserva>
-        <pagado>true</pagado>
-        <serviciosAdicionales>
-            <codigoServicio>3</codigoServicio>
-            <nombreServicio>x particular</nombreServicio>
-            <precio>13.0</precio>
-        </serviciosAdicionales>
-        <serviciosAdicionales>
-            <codigoServicio>5</codigoServicio>
-            <nombreServicio>y particular</nombreServicio>
-            <precio>12.0</precio>
-        </serviciosAdicionales>
-        <serviciosAdicionales>
-            <codigoServicio>0</codigoServicio>
-            <nombreServicio>taxi</nombreServicio>
-            <precio>0.0</precio>
-        </serviciosAdicionales>
+        <numeroReserva>107</numeroReserva>
+        <pagado>false</pagado>
         <tourReservado>
             <codigoIdentificacion>1000001</codigoIdentificacion>
             <fechaRegreso>2019-01-05T00:00:00-05:00</fechaRegreso>

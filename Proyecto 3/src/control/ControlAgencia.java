@@ -206,17 +206,22 @@ public class ControlAgencia {
 
     public void quemarReservas() {
 
-        agregarReserva(LocalDateTime.of(2019, 12, 12, 0, 0), true, 2, listaTours.get(1000001), listaClientes.get(10001));
-        agregarReserva(LocalDateTime.of(2019, 12, 12, 0, 0), true, 2, listaTours.get(1000002), listaClientes.get(20002));
-        agregarReserva(LocalDateTime.of(2019, 10, 12, 0, 0), true, 2, listaTours.get(2001), listaClientes.get(20002));
-        agregarReserva(LocalDateTime.of(2019, 12, 12, 0, 0), true, 2, listaTours.get(3001), listaClientes.get(20002));
-        ServicioAdicional x = new Transporte(100, TipoTransporte.PARTICULAR, 2, 3, "x particular", 13);
-        ServicioAdicional y = new Transporte(100, TipoTransporte.PARTICULAR, 4, 5, "y particular", 12);
-        ServicioAdicional z = new Transporte(100, TipoTransporte.TAXI, 0, 0, "taxi", 0);
+        agregarReserva(LocalDateTime.of(2019, 01, 12, 0, 0), true, 2, listaTours.get(1000001), listaClientes.get(10001));
+        agregarReserva(LocalDateTime.of(2019, 02, 12, 0, 0), true, 2, listaTours.get(1000002), listaClientes.get(20002));
+        agregarReserva(LocalDateTime.of(2019, 03, 12, 0, 0), true, 2, listaTours.get(2000002), listaClientes.get(20002));
+        agregarReserva(LocalDateTime.of(2019, 04, 12, 0, 0), true, 2, listaTours.get(3000002), listaClientes.get(20002));
+        agregarReserva(LocalDateTime.of(2019, 05, 12, 0, 0), true, 2, listaTours.get(1000001), listaClientes.get(10001));
+        agregarReserva(LocalDateTime.of(2019, 06, 12, 0, 0), true, 2, listaTours.get(1000002), listaClientes.get(20002));
+        agregarReserva(LocalDateTime.of(2019, 07, 12, 0, 0), true, 2, listaTours.get(2000002), listaClientes.get(20002));
+        ServicioAdicional x = new Transporte(1002, TipoTransporte.PARTICULAR, 2, 3, "x particular", 13);
+        ServicioAdicional y = new Transporte(1003, TipoTransporte.PARTICULAR, 4, 5, "y particular", 12);
+        ServicioAdicional z = new Transporte(1004, TipoTransporte.TAXI, 1, 2, "taxi", 4);
+        ServicioAdicional c = new Concierto("Shakira", "Medellin", "10:00 pm", 15978, "Consierto plus", 200000);
         ArrayList<ServicioAdicional> se = new ArrayList<>();
         se.add(x);
         se.add(y);
         se.add(z);
+        se.add(c);
         for (Reserva res : reservas) {
             res.setServiciosAdicionales(se);
         }
@@ -346,7 +351,8 @@ public class ControlAgencia {
     }
 
     public long generarNumeroReserva() {
-        return reservas.size() + 100;
+        int numero  = (int) (Math.random() * 100) + 1;
+        return (reservas.size() + 1000) - numero;
     }
 
     public LocalDateTime solicitarFecha() {
@@ -459,7 +465,6 @@ public class ControlAgencia {
 
     public boolean crearListaReservaXML(File selectedFile) {
 
-        //quemarReservas();
         ArchivosXMLListaReservas registros;
         registros = new ArchivosXMLListaReservas(this.reservas);
         try (BufferedWriter output
