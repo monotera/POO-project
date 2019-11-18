@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archivosXMLListaReservas>
+    <Listado_de_reservas_existentes>
+        <cantidadPersonas>1</cantidadPersonas>
+        <clienteReserva>
+            <nombreCompleto>Armando Bronca</nombreCompleto>
+            <numeroIdentificacion>10001</numeroIdentificacion>
+            <telefonoContacto>3165317</telefonoContacto>
+        </clienteReserva>
+        <fecha/>
+        <numeroReserva>100</numeroReserva>
+        <pagado>false</pagado>
+        <serviciosAdicionales>
+            <codigoServicio>123</codigoServicio>
+            <nombreServicio>asd</nombreServicio>
+            <precio>100.0</precio>
+        </serviciosAdicionales>
+        <tourReservado>
+            <codigoIdentificacion>2002</codigoIdentificacion>
+            <fechaRegreso>2019-03-05T00:00:00-05:00</fechaRegreso>
+            <fechaSalida>2019-03-01T00:00:00-05:00</fechaSalida>
+            <horaPartida>0:00</horaPartida>
+            <lugarPartita>Honda</lugarPartita>
+            <nombreComercial>Fumaratto</nombreComercial>
+            <precio>100.0</precio>
+        </tourReservado>
+    </Listado_de_reservas_existentes>
+</archivosXMLListaReservas>
